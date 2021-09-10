@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Nov 18 08:44:27 2020 by Eclipse SUMO duarouter Version v1_7_0+0686-1a9aa4abeb
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo_nets/34/myNet.net.xml"/>
+        <route-files value="sumo_nets/34/trips.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sumo_nets/34/trips.rou.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="500.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="3.00" from="-18" to="26"/>
+    <trip id="1" depart="10.00" from="7" to="21"/>
+    <trip id="2" depart="11.00" from="21" to="37"/>
+    <trip id="3" depart="13.00" from="28" to="37"/>
+    <trip id="4" depart="13.00" from="-18" to="-26"/>
+    <trip id="5" depart="16.00" from="-33" to="37"/>
+    <trip id="6" depart="16.00" from="33" to="18"/>
+    <trip id="7" depart="21.00" from="33" to="37"/>
+    <trip id="8" depart="24.00" from="7" to="21"/>
+    <trip id="9" depart="32.00" from="15" to="-18"/>
+    <trip id="10" depart="33.00" from="30" to="37"/>
+    <trip id="11" depart="45.00" from="9" to="-33"/>
+    <trip id="12" depart="48.00" from="21" to="33"/>
+    <trip id="13" depart="50.00" from="26" to="-30"/>
+    <trip id="14" depart="51.00" from="26" to="37"/>
+    <trip id="15" depart="52.00" from="-30" to="3"/>
+    <trip id="16" depart="69.00" from="-37" to="3"/>
+    <trip id="17" depart="85.00" from="-3" to="28"/>
+    <trip id="18" depart="87.00" from="-3" to="-33"/>
+    <trip id="19" depart="97.00" from="-3" to="33"/>
+    <trip id="20" depart="99.00" from="-3" to="-33"/>
+    <trip id="21" depart="104.00" from="-33" to="3"/>
+    <trip id="22" depart="104.00" from="-37" to="9"/>
+    <trip id="23" depart="109.00" from="15" to="3"/>
+    <trip id="24" depart="110.00" from="-37" to="-18"/>
+    <trip id="25" depart="113.00" from="-3" to="37"/>
+    <trip id="26" depart="115.00" from="21" to="3"/>
+    <trip id="27" depart="122.00" from="21" to="28"/>
+    <trip id="28" depart="130.00" from="-15" to="3"/>
+    <trip id="29" depart="131.00" from="-26" to="-21"/>
+    <trip id="30" depart="132.00" from="-30" to="3"/>
+    <trip id="31" depart="133.00" from="30" to="3"/>
+    <trip id="32" depart="134.00" from="-18" to="37"/>
+    <trip id="33" depart="135.00" from="-7" to="37"/>
+    <trip id="34" depart="146.00" from="-37" to="-9"/>
+    <trip id="35" depart="149.00" from="-33" to="3"/>
+    <trip id="36" depart="156.00" from="-3" to="37"/>
+    <trip id="37" depart="160.00" from="-3" to="-30"/>
+    <trip id="38" depart="168.00" from="-3" to="28"/>
+    <trip id="39" depart="180.00" from="33" to="37"/>
+    <trip id="40" depart="182.00" from="-26" to="-15"/>
+    <trip id="41" depart="191.00" from="-3" to="-9"/>
+    <trip id="42" depart="196.00" from="30" to="18"/>
+    <trip id="43" depart="200.00" from="7" to="37"/>
+    <trip id="44" depart="219.00" from="-37" to="-21"/>
+    <trip id="45" depart="220.00" from="-3" to="37"/>
+    <trip id="46" depart="225.00" from="-3" to="-9"/>
+    <trip id="47" depart="230.00" from="-37" to="-15"/>
+    <trip id="48" depart="244.00" from="-3" to="-33"/>
+    <trip id="49" depart="245.00" from="-37" to="9"/>
+    <trip id="50" depart="250.00" from="28" to="-30"/>
+    <trip id="51" depart="251.00" from="-3" to="18"/>
+    <trip id="52" depart="260.00" from="18" to="26"/>
+    <trip id="53" depart="261.00" from="-33" to="37"/>
+    <trip id="54" depart="270.00" from="26" to="3"/>
+    <trip id="55" depart="272.00" from="18" to="37"/>
+    <trip id="56" depart="278.00" from="9" to="-30"/>
+    <trip id="57" depart="279.00" from="-28" to="-21"/>
+    <trip id="58" depart="289.00" from="-37" to="3"/>
+    <trip id="59" depart="290.00" from="-3" to="30"/>
+    <trip id="60" depart="294.00" from="-37" to="9"/>
+    <trip id="61" depart="297.00" from="-3" to="18"/>
+    <trip id="62" depart="301.00" from="21" to="3"/>
+    <trip id="63" depart="303.00" from="18" to="33"/>
+    <trip id="64" depart="306.00" from="-7" to="30"/>
+    <trip id="65" depart="307.00" from="-37" to="18"/>
+    <trip id="66" depart="309.00" from="-37" to="26"/>
+    <trip id="67" depart="309.00" from="-37" to="-21"/>
+    <trip id="68" depart="314.00" from="-21" to="37"/>
+    <trip id="69" depart="324.00" from="-3" to="37"/>
+    <trip id="70" depart="326.00" from="-3" to="9"/>
+    <trip id="71" depart="333.00" from="26" to="37"/>
+    <trip id="72" depart="337.00" from="30" to="3"/>
+    <trip id="73" depart="339.00" from="-37" to="-26"/>
+    <trip id="74" depart="345.00" from="-37" to="-15"/>
+    <trip id="75" depart="351.00" from="-37" to="3"/>
+    <trip id="76" depart="351.00" from="-3" to="-9"/>
+    <trip id="77" depart="353.00" from="-37" to="3"/>
+    <trip id="78" depart="356.00" from="-21" to="9"/>
+    <trip id="79" depart="359.00" from="-3" to="-33"/>
+    <trip id="80" depart="361.00" from="-37" to="3"/>
+    <trip id="81" depart="361.00" from="-3" to="37"/>
+    <trip id="82" depart="366.00" from="-3" to="37"/>
+    <trip id="83" depart="378.00" from="-37" to="3"/>
+    <trip id="84" depart="386.00" from="-37" to="3"/>
+    <trip id="85" depart="390.00" from="-37" to="3"/>
+    <trip id="86" depart="393.00" from="-3" to="37"/>
+    <trip id="87" depart="397.00" from="-3" to="37"/>
+    <trip id="88" depart="397.00" from="-37" to="3"/>
+    <trip id="89" depart="400.00" from="-3" to="37"/>
+    <trip id="90" depart="411.00" from="-3" to="37"/>
+    <trip id="91" depart="414.00" from="-37" to="3"/>
+    <trip id="92" depart="425.00" from="-3" to="37"/>
+    <trip id="93" depart="434.00" from="-37" to="3"/>
+    <trip id="94" depart="439.00" from="-3" to="37"/>
+    <trip id="95" depart="443.00" from="-3" to="37"/>
+    <trip id="96" depart="447.00" from="-3" to="-28"/>
+    <trip id="97" depart="455.00" from="-3" to="37"/>
+    <trip id="98" depart="462.00" from="-3" to="37"/>
+    <trip id="99" depart="465.00" from="-3" to="37"/>
+    <trip id="100" depart="465.00" from="-37" to="3"/>
+    <trip id="101" depart="467.00" from="-37" to="3"/>
+    <trip id="102" depart="470.00" from="-37" to="3"/>
+    <trip id="103" depart="475.00" from="-37" to="3"/>
+    <trip id="104" depart="477.00" from="-3" to="37"/>
+    <trip id="105" depart="495.00" from="-37" to="3"/>
+    <trip id="106" depart="499.00" from="-3" to="37"/>
+</routes>
