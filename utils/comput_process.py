@@ -255,6 +255,7 @@ def comput(request_ends, comput_model_queue,comput_model2_queue, baseline_reward
                             s = time.time()
                             hid, Q_values = model.forward(batched_graph, device, testing = True if env_params.additional_params['mode'] == 'test' else False, actions_sizes = torch.cat(tuple(actions_sizes),dim=0))
                             hid2, Q_values2 = model2.forward(batched_graph, device, testing = True if env_params.additional_params['mode'] == 'test' else False, actions_sizes = torch.cat(tuple(actions_sizes),dim=0))
+                            mode=env_params.additional_params['combination']
                             ## add up
                             if mode == 'addup':
                                 print('mode: add up')
