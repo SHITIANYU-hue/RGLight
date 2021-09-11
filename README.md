@@ -2,7 +2,7 @@
 This repository contains code provided alongside the paper : Improving the generalizability and robustness of large-scale traffic signal control
 
 
-#Overview
+## Installation
 To install the conda environment, please run:  conda env create -f environment.yml
 
 
@@ -17,7 +17,7 @@ This repository contains pre-trained models and parameters as well as config fil
 
 The trained models: models_paramsk0 corresponds to DGRL as proposed in the paper and models_paramsk1 correspoinds to IGRL as shown in the paper.
 
-#Run experiment
+## Run experiment
 
 To evaluate all the methods, by running:
 
@@ -36,7 +36,7 @@ To try different non-grid network structures, please set grid=False, and change 
 To try different grid network structure, please set grid=True, and change the col_num or row_num in .ini file to try different scale of grid network. 
 
 
-#Experiment results
+## Experiment results
 
 Results are stored alongside the .ini files. It will be recorded under /tensorboard folder.
 
