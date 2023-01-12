@@ -1,5 +1,6 @@
 # RGLight
-This repository contains code provided alongside the paper : Improving the generalizability and robustness of large-scale traffic signal control
+This repository contains code provided alongside the paper : Improving the generalizability and robustness of large-scale traffic signal control 
+(https://www.overleaf.com/read/kmpnptmdxkdc)
 
 
 ## Installation
