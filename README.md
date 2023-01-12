@@ -48,6 +48,8 @@ For experiments involving evaluations, .pkl files include detailed per-trip info
 
 
 ## Solution details
-
+A reinforcement learning approach for Improving the generalizability and robustness of large-scale traffic signal control
 
 ## Technical details
+
+python, pytorch, 
