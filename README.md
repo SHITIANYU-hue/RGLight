@@ -1,6 +1,6 @@
 # RGLight
 This repository contains code provided alongside the paper : Improving the generalizability and robustness of large-scale traffic signal control 
-(https://www.overleaf.com/read/kmpnptmdxkdc)
+
 
 
 ## Installation
@@ -48,8 +48,8 @@ For experiments involving evaluations, .pkl files include detailed per-trip info
 
 
 ## Solution details
-A reinforcement learning approach for Improving the generalizability and robustness of large-scale traffic signal control
+A reinforcement learning approach for Improving the generalizability and robustness of large-scale traffic signal control, the detailed analysis can be found here: (https://www.overleaf.com/read/kmpnptmdxkdc)
 
 ## Technical details
 
-python, pytorch, 
+A list of running packages can be found here: [environment.yml](https://github.com/SHITIANYU-hue/RGLight/blob/main/environment.yml)
