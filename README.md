@@ -46,3 +46,8 @@ Results are stored alongside the .ini files. It will be recorded under /tensorbo
 
 For experiments involving evaluations, .pkl files include detailed per-trip information (delay, duration, etc.)
 
+
+## Solution details
+
+
+## Technical details
